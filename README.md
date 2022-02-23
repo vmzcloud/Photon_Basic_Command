@@ -27,3 +27,7 @@ Change network configuration file permission
 Restart network service
 
     systemctl restart systemd-networkd
+
+Set timezone (Hong Kong)
+
+    ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
