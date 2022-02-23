@@ -1,5 +1,9 @@
 # Photon Basic Command
 
+## **Default login password for Photon OVA**
+
+root / changeme
+
 ## **Set hostname**
 
     hostnamectl set-hostname Photon01
