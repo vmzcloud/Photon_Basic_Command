@@ -1,7 +1,5 @@
 # Photon Basic Command
 
-<style>H2{color:Blue;}</style>
-
 ## **Set hostname**
 
     hostnamectl set-hostname Photon01
