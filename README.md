@@ -50,3 +50,9 @@ Restart network service
     curl -L https://github.com/docker/compose/releases/download/v2.2.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 
     chmod +x /usr/local/bin/docker-compose
+
+## **Start and Enable docker service**
+
+    #Start docker and enable it to be started at boot time
+    systemctl start docker
+    systemctl enable docker
