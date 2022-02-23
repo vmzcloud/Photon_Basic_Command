@@ -35,3 +35,12 @@ Restart network service
 ## **Set timezone (Hong Kong)**
 
     ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
+
+## **Disable password aging for root user (Optional)**
+
+    # -I Set password inactive after expiration to INACTIVE
+    # -m Set minimum number of days before password change to MIN_DAYS
+    # -M Set maximum number of days before password change to MAX_DAYS
+    # -E Set account expiration date to EXPIRE_DATE
+
+    chage -I -1 -m 0 -M 99999 -E -1 root
