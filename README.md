@@ -56,3 +56,8 @@ Restart network service
     #Start docker and enable it to be started at boot time
     systemctl start docker
     systemctl enable docker
+
+## **Enable Docker Remote API**
+
+    chmod +x Enable-DockerRemoteAPI.sh
+    ./Enable-DockerRemoteAPI.sh
