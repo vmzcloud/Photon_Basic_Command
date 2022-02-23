@@ -44,3 +44,9 @@ Restart network service
     # -E Set account expiration date to EXPIRE_DATE
 
     chage -I -1 -m 0 -M 99999 -E -1 root
+
+## **Install docker-compose**
+
+    curl -L https://github.com/docker/compose/releases/download/v2.2.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+
+    chmod +x /usr/local/bin/docker-compose
