@@ -1,10 +1,10 @@
 # Photon Basic Command
 
-**Set hostname**
+<font color=#0000FF>**Set hostname**</font>
 
     hostnamectl set-hostname Photon01
 
-**Configure Network**
+<font color=#0000FF>**Configure Network**</font>
 
 Create the network configuration file
 
@@ -28,6 +28,6 @@ Restart network service
 
     systemctl restart systemd-networkd
 
-Set timezone (Hong Kong)
+<font color=#0000FF>**Set timezone (Hong Kong)**</font>
 
     ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
