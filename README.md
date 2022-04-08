@@ -61,3 +61,8 @@ Restart network service
 
     chmod +x Enable-DockerRemoteAPI.sh
     ./Enable-DockerRemoteAPI.sh
+
+## **Enable Ping**
+
+    iptables -A OUTPUT -p icmp -j ACCEPT
+    iptables -A INPUT -p icmp -j ACCEPT
